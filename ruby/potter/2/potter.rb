@@ -1,5 +1,5 @@
 class Potter
-  def price(books = [])
-    0
+  def price(books)
+    books.count * 8
   end
 end
