@@ -14,6 +14,7 @@ describe('Potter', function() {
       assert.equal(8, potter.price([4]));
       assert.equal(8 * 2, potter.price([0, 0]));
       assert.equal(8 * 3, potter.price([1, 1, 1]));
+      assert.equal(8 * 2 * 0.95, potter.price([0, 1]));
     })
   })
 })
