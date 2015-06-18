@@ -1,8 +1,17 @@
 require('sugar');
 
-module.exports Potter = function() {
+module.exports = function() {
+  var rules = {
+    1: 1,
+    2: 0.95,
+    3: 0.90,
+    4: 0.80,
+    5: 0.75
+  };
+
   this.price = function(books) {
     var store = {};
+    var packages = [];
 
     // Returns not discounted price.
     if (books.unique().length <= 1)
@@ -12,5 +21,18 @@ module.exports Potter = function() {
     books.forEach(function(book) {
       store[book] = (store[book] || 0) + 1;
     });
+
+    // Getting possible packages.
+    Object.keys(store).forEach(function(book) {
+      for (var i = 0; i < store[book]; i++) {
+        packages[i] = packages[i] || [];
+        packages[i].push(book);
+      }
+    });
+
+    // Gettings price for packages.
+    return packages.map(function(package) {
+      return rules[package.length] * (8 * package.length);
+    }).sum();
   }
 }
