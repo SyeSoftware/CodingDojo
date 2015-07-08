@@ -17,7 +17,7 @@ class Potter
   def price(books)
     groups = sort_book_groups(books)
     discount_groups = build_discount_groups(groups)
-    calculate_total(discount_groups)
+    calculate_total(balance(discount_groups))
   end
 
   private
@@ -58,5 +58,20 @@ class Potter
 
   def calculate_discount(books)
     book_price * books.count * discount[books.count]
+  end
+
+  def balance(discount_groups)
+    for i in 1..discount_groups.keys.count do
+      current_group = discount_groups[group_number(i)]
+      next_group =discount_groups[group_number(i + 1)]
+      if unbalanced_groups?(current_group, next_group)
+        next_group.push(current_group.pop)
+      end
+    end
+    discount_groups
+  end
+
+  def unbalanced_groups?(group_1, group_2)
+    group_1.size == 5 and group_2.size == 3
   end
 end
