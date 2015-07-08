@@ -1,0 +1,7 @@
+C:\Users\RAHY\Desktop\DOJO\CodingDojo\csharp\Potter\TestPotter\obj\Debug\TestPotter.csprojResolveAssemblyReference.cache
+C:\Users\RAHY\Desktop\DOJO\CodingDojo\csharp\Potter\TestPotter\bin\Debug\TestPotter.dll
+C:\Users\RAHY\Desktop\DOJO\CodingDojo\csharp\Potter\TestPotter\bin\Debug\TestPotter.pdb
+C:\Users\RAHY\Desktop\DOJO\CodingDojo\csharp\Potter\TestPotter\bin\Debug\PotterPromociones.exe
+C:\Users\RAHY\Desktop\DOJO\CodingDojo\csharp\Potter\TestPotter\bin\Debug\PotterPromociones.pdb
+C:\Users\RAHY\Desktop\DOJO\CodingDojo\csharp\Potter\TestPotter\obj\Debug\TestPotter.dll
+C:\Users\RAHY\Desktop\DOJO\CodingDojo\csharp\Potter\TestPotter\obj\Debug\TestPotter.pdb
