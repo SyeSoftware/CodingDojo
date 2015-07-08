@@ -15,9 +15,9 @@ module.exports = function() {
     packages = improvePackages(packages)
 
     // Gettings price for packages.
-    return packages.map(function(package) {
+    return packages.sum(function(package) {
       return rules[package.length] * (8 * package.length);
-    }).sum();
+    });
   }
 
 
