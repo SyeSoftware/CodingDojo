@@ -1,8 +1,8 @@
 # Ignore RVM files.
-*/.rvmrc
 .rvmrc
 
 # Ignore MacOS junk files.
-*/.DS_Store
 .DS_Store
-.DS_Store?
+
+# Dependecies.
+node_modules
