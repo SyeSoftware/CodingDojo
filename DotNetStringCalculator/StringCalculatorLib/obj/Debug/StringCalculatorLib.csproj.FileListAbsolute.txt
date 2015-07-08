@@ -1,0 +1,5 @@
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\StringCalculatorLib\bin\Debug\StringCalculatorLib.dll
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\StringCalculatorLib\bin\Debug\StringCalculatorLib.pdb
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\StringCalculatorLib\obj\Debug\StringCalculatorLib.csprojResolveAssemblyReference.cache
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\StringCalculatorLib\obj\Debug\StringCalculatorLib.dll
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\StringCalculatorLib\obj\Debug\StringCalculatorLib.pdb

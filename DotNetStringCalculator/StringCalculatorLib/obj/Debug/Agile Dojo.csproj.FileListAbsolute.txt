@@ -1,0 +1,5 @@
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\Agile Dojo\bin\Debug\Agile Dojo.dll
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\Agile Dojo\bin\Debug\Agile Dojo.pdb
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\Agile Dojo\obj\Debug\Agile Dojo.csprojResolveAssemblyReference.cache
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\Agile Dojo\obj\Debug\Agile Dojo.dll
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\Agile Dojo\obj\Debug\Agile Dojo.pdb

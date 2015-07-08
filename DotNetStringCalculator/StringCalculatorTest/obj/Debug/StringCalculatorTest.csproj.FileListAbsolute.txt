@@ -1,0 +1,10 @@
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\StringCalculatorTest\bin\Debug\StringCalculatorTest.dll
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\StringCalculatorTest\bin\Debug\StringCalculatorTest.pdb
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\StringCalculatorTest\bin\Debug\Moq.dll
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\StringCalculatorTest\bin\Debug\StringCalculatorLib.dll
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\StringCalculatorTest\bin\Debug\StringCalculatorLib.pdb
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\StringCalculatorTest\bin\Debug\Moq.pdb
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\StringCalculatorTest\bin\Debug\Moq.xml
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\StringCalculatorTest\obj\Debug\StringCalculatorTest.csprojResolveAssemblyReference.cache
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\StringCalculatorTest\obj\Debug\StringCalculatorTest.dll
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\StringCalculatorTest\obj\Debug\StringCalculatorTest.pdb

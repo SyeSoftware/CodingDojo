@@ -1,0 +1,10 @@
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\Agile dojo test\bin\Debug\Agile dojo test.dll
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\Agile dojo test\bin\Debug\Agile dojo test.pdb
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\Agile dojo test\bin\Debug\Agile Dojo.dll
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\Agile dojo test\bin\Debug\Moq.dll
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\Agile dojo test\bin\Debug\Agile Dojo.pdb
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\Agile dojo test\bin\Debug\Moq.pdb
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\Agile dojo test\bin\Debug\Moq.xml
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\Agile dojo test\obj\Debug\Agile dojo test.csprojResolveAssemblyReference.cache
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\Agile dojo test\obj\Debug\Agile dojo test.dll
+C:\Users\Ever\Documents\Desarrollo\Agile\Agile Dojo\Agile dojo test\obj\Debug\Agile dojo test.pdb
