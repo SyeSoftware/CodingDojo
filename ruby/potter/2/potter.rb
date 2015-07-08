@@ -59,5 +59,4 @@ class Potter
   def calculate_discount(books)
     book_price * books.count * discount[books.count]
   end
-
 end
