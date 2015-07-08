@@ -10,57 +10,25 @@ module.exports = function() {
   };
 
   this.price = function(books) {
+    var store = {};
     var packages = [];
-    packages = buildPackages(books);
-    packages = improvePackages(packages)
 
-    // Gettings price for packages.
+    // Grouping books by serie.
+    books.forEach(function(book) {
+      store[book] = (store[book] || 0) + 1;
+    });
+
+    // Getting possible packages.
+    Object.keys(store).forEach(function(book) {
+      for (var i = 0; i < store[book]; i++) {
+        packages[i] = packages[i] || [];
+        packages[i].push(book);
+      }
+    });
+
+    // Gettings packages price.
     return packages.sum(function(package) {
       return rules[package.length] * (8 * package.length);
-    });
-  }
-
-
-  // This method builds the first packages version.
-  // ==============================================
-  var buildPackages = function(books) {
-    var packages = [];
-    var books = books.clone()
-    var package;
-
-    for (var i = 0; books.length; i++) {
-      package = books.unique();
-      packages.push(package);
-      package.each(function(book) {
-        books.splice(books.indexOf(book), 1);
-      });
-    }
-
-    return packages;
-  }
-
-
-  // This method improves packages to get the lowest price.
-  // ======================================================
-  var improvePackages = function(packages) {
-    packages.each(function(package, index) {
-      improvePairPackages([package, packages[index + 1]]);
-    });
-  }
-
-
-  // This method adjusts a pair of packages to get the lowest
-  // price combination.
-  // ======================================================
-  var improvePairPackages = function(packages) {
-    var currentDiscount = packagesDiscount(packages);
-  }
-
-
-  // Returns total packages discount.
-  var packagesDiscount = function(packages) {
-    return packages.sum(function(package) {
-      return 1 - rules[package.length];
     });
   }
 }
