@@ -15,10 +15,10 @@ class Test_Potter < Minitest::Test
   end
 
   def test_simple_discounts
-    #assert_equal(8 * 2 * 0.95, Potter.new([0, 1]).price)
-    #assert_equal(8 * 3 * 0.9, Potter.new([0, 2, 4]).price)
-    #assert_equal(8 * 4 * 0.8, Potter.new([0, 1, 2, 4]).price)
-    #assert_equal(8 * 5 * 0.75, Potter.new([0, 1, 2, 3, 4]).price)
+    assert_equal(8 * 2 * 0.95, Potter.new([0, 1]).price)
+    assert_equal(8 * 3 * 0.9, Potter.new([0, 2, 4]).price)
+    assert_equal(8 * 4 * 0.8, Potter.new([0, 1, 2, 4]).price)
+    assert_equal(8 * 5 * 0.75, Potter.new([0, 1, 2, 3, 4]).price)
   end
 
   def test_several_discounts
