@@ -39,7 +39,13 @@ class Cart
     groups
   end
 
-  def build_unique_groups(groups = {})  
+  def build_unique_groups(groups = {})
+
+    items.sort.each_with_index do |item, index|
+      if groups[item]
+      end
+    end
+
     items.each do |item|
       cont = 0
       while(cont < items.size)
