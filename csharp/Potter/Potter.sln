@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPotter", "TestPotter\TestPotter.csproj", "{14898942-0B99-4877-B3EE-383226FE63FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PotterPromociones", "PotterPromociones\PotterPromociones.csproj", "{C641DA17-AFA3-4AC7-A891-9C03BD821305}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14898942-0B99-4877-B3EE-383226FE63FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14898942-0B99-4877-B3EE-383226FE63FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14898942-0B99-4877-B3EE-383226FE63FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14898942-0B99-4877-B3EE-383226FE63FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C641DA17-AFA3-4AC7-A891-9C03BD821305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C641DA17-AFA3-4AC7-A891-9C03BD821305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C641DA17-AFA3-4AC7-A891-9C03BD821305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C641DA17-AFA3-4AC7-A891-9C03BD821305}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

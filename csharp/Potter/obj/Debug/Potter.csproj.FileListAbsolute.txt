@@ -1,0 +1,5 @@
+C:\Users\RAHY\Desktop\DOJO\CodingDojo\csharp\Potter\bin\Debug\Potter.dll
+C:\Users\RAHY\Desktop\DOJO\CodingDojo\csharp\Potter\bin\Debug\Potter.pdb
+C:\Users\RAHY\Desktop\DOJO\CodingDojo\csharp\Potter\obj\Debug\Potter.csprojResolveAssemblyReference.cache
+C:\Users\RAHY\Desktop\DOJO\CodingDojo\csharp\Potter\obj\Debug\Potter.dll
+C:\Users\RAHY\Desktop\DOJO\CodingDojo\csharp\Potter\obj\Debug\Potter.pdb
